@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Pass from './PasswordInput'
 
-
-function App() {
-
-  return (
+const App = () => {
+  return(
     <>
-     <h1 >Hellloo...</h1>
+      <div>
+        <Pass/>
+      </div>
     </>
   )
 }
